@@ -220,3 +220,11 @@ def torch_seed(seed=123):
     torch.cuda.manual_seed(seed)
     torch.backends.cudnn.deterministic = True
     torch.use_deterministic_algorithms = True
+    
+    
+#このファイルが読み込まれていることの確認をするための関数
+
+def comform():
+  print("ファイルの読み込みに成功しました。")
+
+
