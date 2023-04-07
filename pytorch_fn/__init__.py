@@ -227,4 +227,4 @@ def torch_seed(seed=123):
 def comform():
     print("ファイルの読み込みに成功しました。")
 
-
+id = "ファイルの読み込みに成功しました。"
