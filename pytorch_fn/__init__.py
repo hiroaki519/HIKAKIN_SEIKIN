@@ -5,7 +5,7 @@
 # ReadMe
 README = 'Common Library for PyTorch\nAuthor: M. Akaishi'
 
-ID = "ファイルの読み込みに成功しました。"
+ID = 'ファイルの読み込みに成功しました。'
 
 import numpy as np
 import matplotlib.pyplot as plt
