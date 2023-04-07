@@ -5,6 +5,8 @@
 # ReadMe
 README = 'Common Library for PyTorch\nAuthor: M. Akaishi'
 
+ID = "ファイルの読み込みに成功しました。"
+
 import numpy as np
 import matplotlib.pyplot as plt
 import japanize_matplotlib
@@ -222,9 +224,4 @@ def torch_seed(seed=123):
     torch.use_deterministic_algorithms = True
     
     
-#このファイルが読み込まれていることの確認をするための関数
 
-def comform():
-    print("ファイルの読み込みに成功しました。")
-
-id = "ファイルの読み込みに成功しました。"
